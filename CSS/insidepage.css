@@ -1,0 +1,113 @@
+.conteudo {
+  width: 1008px;
+  height: 100%;
+  border: 1px solid rgb(168, 168, 168);
+  padding-bottom: 20px;
+  background-color: rgb(230, 230, 230);
+}
+
+.conteudo-image > img {
+  padding-left: 30px;
+  padding-top: 30px;
+  height: 360px;
+}
+
+.conteudo-inside {
+  display: flex;
+}
+
+.conteudo-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 30px;
+}
+
+.texto {
+  display: flex;
+  flex-direction: column;
+  font-weight: normal;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+}
+
+.texto > h1 {
+  margin-bottom: 20px;
+}
+
+.texto > p {
+  margin-bottom: 5px;
+}
+
+.scores {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.scores > div {
+  margin-right: 10px;
+}
+
+.imdb {
+  width: 75px;
+  height: 22px;
+  border-radius: 3px;
+  border: 1px solid black;
+  background-color: #f6c700;
+  font-weight: bolder;
+  font-family: Arial, Helvetica, sans-serif
+}
+
+.imdb > img {
+  width: 37px;
+  padding-left: 5px;
+  padding-top: 4px;
+}
+
+.imdb > span {
+  position: absolute;
+  padding-left: 5px;
+}
+
+.rottentomatoes {
+  width: 97px;
+  height: 22px;
+  border-radius: 3px;
+  border: 1px solid black;
+  background-color: #ffffff;
+  font-weight: bolder;
+  font-family: Arial, Helvetica, sans-serif
+}
+
+.rottentomatoes > img {
+  width: 50px;
+  padding-left: 5px;
+  padding-top: 4px;
+}
+
+.rottentomatoes > span {
+  position: absolute;
+  padding-left: 5px;
+}
+
+.metacritic {
+  width: 85px;
+  height: 22px;
+  border-radius: 3px;
+  background-color: #000000;
+  color: white;
+  font-weight: bolder;
+  font-family: Arial, Helvetica, sans-serif
+}
+
+.metacritic > img {
+  width: 55px;
+  padding-left: 5px;
+  padding-top: 4px;
+}
+
+.metacritic > span {
+  position: absolute;
+  padding-left: 5px;
+}

@@ -1,0 +1,36 @@
+.movies {
+  display: flex;
+  align-content: flex-start;
+}
+
+.movies > a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 8px;
+  margin-right: 8px;
+  text-decoration: none;
+  color: black;
+  text-align: center;
+  font-size: 13px;
+}
+
+.movies > a > img {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  max-width: 100%;
+  width: 150px;
+  height: 220px;
+  margin-top: 5px;
+  border-radius: 5px;
+  margin-bottom: 8px;
+}
+
+.article-title > span {
+  font-size: 50px;
+}
+
+abbr {
+  text-decoration: none;
+}
