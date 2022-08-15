@@ -2,6 +2,7 @@
   font-family: 'mexcellent' sans-serif;
   src: url('C:\Users\Pichau\Documents\GitHub\Site de Movies\font\mexcellent rg.otf');
 }
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500;600&display=swap');
 
 * {
   padding: 0;
@@ -132,11 +133,12 @@ header .header-image {
 }
 
 #generos {
+  width: 226px;
   list-style: none;
   text-align: center;
   padding-left: 0px;
   margin-top: 2px;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Open Sans', Arial, sans-serif;
   font-weight: 500;
 }
 
